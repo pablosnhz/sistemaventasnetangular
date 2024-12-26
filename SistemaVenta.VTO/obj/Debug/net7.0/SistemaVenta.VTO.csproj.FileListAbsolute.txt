@@ -1,0 +1,12 @@
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\bin\Debug\net7.0\SistemaVenta.VTO.deps.json
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\bin\Debug\net7.0\SistemaVenta.VTO.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\bin\Debug\net7.0\SistemaVenta.VTO.pdb
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.csproj.AssemblyReference.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.AssemblyInfoInputs.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.AssemblyInfo.cs
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.csproj.CoreCompileInputs.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\refint\SistemaVenta.VTO.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\SistemaVenta.VTO.pdb
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.VTO\obj\Debug\net7.0\ref\SistemaVenta.VTO.dll
