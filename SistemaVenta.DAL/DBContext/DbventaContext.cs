@@ -18,7 +18,7 @@ public partial class DbventaContext : DbContext
 
     public virtual DbSet<Categoria> Categoria { get; set; }
 
-    public virtual DbSet<DatalleVenta> DatalleVenta { get; set; }
+    public virtual DbSet<DatalleVenta> DetalleVenta { get; set; }
 
     public virtual DbSet<Menu> Menus { get; set; }
 

@@ -81,3 +81,5 @@ D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta
 D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.pdb
 D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.pdb
 D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
