@@ -12,3 +12,17 @@ D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta
 D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
 D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
 D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.deps.json
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.runtimeconfig.json
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.pdb
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.csproj.AssemblyReference.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.AssemblyInfoInputs.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.AssemblyInfo.cs
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.csproj.CoreCompileInputs.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\refint\SistemaVenta.Model.dll
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
+D:\DescargasD\proyectospersonales\fullstackpuntonet\APISistemaVenta\fullstacknetangular\apiSistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll
