@@ -1,0 +1,46 @@
+<h2 mat-dialog-title>{{ tituloAccion }}Usuario</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="formularioUsuario" (ngSubmit)="guardarEditar_Usuario()">
+    <mat-grid-list cols="1" rowHeight="80px">
+
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Nombre Completo</mat-label>
+          <input matInput autocomplete="off" formControlName="nombreCompleto" placeholder="Nombre Completo">
+          <mat-icon mattSuffix>account_box</mat-icon>
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Correo</mat-label>
+          <input matInput autocomplete="off" formControlName="correo" placeholder="Correo">
+          <mat-icon mattSuffix>mail</mat-icon>
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Rol</mat-label>
+          <mat-select formControlName="idRol">
+            <mat-option *ngFor="let item of listaRoles" [value]="item.idRol">
+              {{ item.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Contraseña</mat-label>
+        <input matInput [type]="ocultarPassword ? 'password' : 'text'" formControlName="clave" placeholder="Contraseña" autocomplete="off">
+          <button mat-icon-button matSuffix (click)="ocultarPassword = !ocultarPassword" type="button">
+            <mat-icon matSuffix>{{ocultarPassword ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </mat-grid-tile>
+
+    </mat-grid-list>
+  </form>
+</mat-dialog-content>
