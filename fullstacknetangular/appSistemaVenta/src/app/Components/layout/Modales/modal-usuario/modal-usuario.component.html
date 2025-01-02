@@ -1,7 +1,8 @@
 <h2 mat-dialog-title>{{ tituloAccion }}Usuario</h2>
 
 <mat-dialog-content>
-  <form [formGroup]="formularioUsuario" (ngSubmit)="guardarEditar_Usuario()">
+  <!-- <form [formGroup]="formularioUsuario" (ngSubmit)="guardarEditar_Usuario()"> -->
+  <form [formGroup]="formularioUsuario">
     <mat-grid-list cols="1" rowHeight="80px">
 
       <mat-grid-tile>
@@ -41,6 +42,29 @@
         </mat-form-field>
       </mat-grid-tile>
 
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Estado</mat-label>
+          <mat-select formControlName="esActivo">
+            <mat-option value="1">
+              Activo
+            </mat-option>
+            <mat-option value="0">
+              No activo
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-grid-tile>
+
     </mat-grid-list>
   </form>
 </mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-raised-button mat-dialog-close color="warn">Volver</button>
+  <button mat-raised-button color="primary"
+  [disabled]="formularioUsuario.invalid"
+  (click)="guardarEditar_Usuario()"
+  >{{ botonAccion }}</button>
+
+</mat-dialog-actions>
