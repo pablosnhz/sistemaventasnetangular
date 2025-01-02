@@ -15,7 +15,7 @@ const routes: Routes = [{
     { path: 'dashboard', component: DashBoardComponent },
     { path: 'usuarios', component: UsuarioComponent },
     { path: 'productos', component: ProductoComponent },
-    { path: 'ventas', component: VentaComponent },
+    { path: 'venta', component: VentaComponent },
     { path: 'historia_venta', component: HistorialVentaComponent },
     { path: 'reportes', component: ReporteComponent },
     { path: '**', redirectTo: '' }
