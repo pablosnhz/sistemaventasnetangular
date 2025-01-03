@@ -19,8 +19,10 @@ export class VentaComponent {
 
   listaProductos: Producto[] = [];
   listaProductosFiltro: Producto[] = [];
+
   listaProductosParaVenta: DatalleVenta[] = [];
   bloquearBotonRegistrar: boolean = false;
+
   // este producto seleccionado pasa luego a lista productos para venta
   productoSeleccionado!: Producto;
   tipoDePagoPorDefecto: string = "Efectivo";
@@ -73,7 +75,7 @@ export class VentaComponent {
 
   agregarProductoParaVenta(){
     const _cantidad: number = this.formularioProductoVenta.value.cantidad;
-    const _precio: number = parseFloat(this.productoSeleccionado.precio.toString());
+    const _precio: number = parseFloat(this.productoSeleccionado.precio);
     const _total: number = _cantidad * _precio;
     this.totalPagar = this.totalPagar + _total;
     this.listaProductosParaVenta.push({
@@ -99,8 +101,6 @@ export class VentaComponent {
   }
 
   registrarVenta(){
-    console.log();
-
     if(this.listaProductosParaVenta.length > 0){
       this.bloquearBotonRegistrar = true;
       const request: Venta = {
@@ -108,9 +108,11 @@ export class VentaComponent {
         totalTexto: String(this.totalPagar.toFixed(2)),
         datalleVenta: this.listaProductosParaVenta
       }
+      console.log('Datos enviados:', request);
       this._ventaService.registrar(request).subscribe({
         next: (data) => {
           if(data.status){
+            console.log('Respuesta del servidor:', data.status);
             this.totalPagar = 0.00;
             this.listaProductosParaVenta = [];
             this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);

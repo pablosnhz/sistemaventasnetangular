@@ -3,8 +3,8 @@ import { DatalleVenta } from "./detalle-venta";
 export interface Venta {
   idVenta?: number;
   numeroDocumento?: string;
-  tipoPago?: string;
+  tipoPago: string;
   fechaRegistro?: string;
-  totalTexto?: string;
+  totalTexto: string;
   datalleVenta?: DatalleVenta[];
 }
