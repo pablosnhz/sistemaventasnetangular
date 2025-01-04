@@ -6,6 +6,20 @@
       <mat-icon>menu</mat-icon>
     </button>
 
+    <span style="flex: 1 1 auto"></span>
+    <label style="font-size: 14px; margin-right: 20px;">
+      {{correoUsuario}} | {{rolUsuario}}
+    </label>
+
+    <button mat-icon-button (click)="cerrarSesion()">
+      <mat-icon>logout</mat-icon>
+    </button>
+
+    <!-- <mat-list-item *ngFor="let menu of listaMenus" [routerLink]="menu.url">
+      <mat-icon mat-list-icon>{{menu.icono}}</mat-icon>
+      <div mat-line>{{menu.nombre}}</div>
+    </mat-list-item> -->
+
   </mat-toolbar-row>
 </mat-toolbar>
 
@@ -37,6 +51,11 @@
         <mat-icon mat-list-icon>edit_note</mat-icon>
         <div mat-line>Historial Ventas</div>
       </mat-list-item>
+
+      <mat-list-item *ngFor="let menu of listaMenus" [routerLink]="menu.url">
+      <mat-icon mat-list-icon>{{menu.icono}}</mat-icon>
+      <div mat-line>{{menu.nombre}}</div>
+    </mat-list-item>
 
     </mat-nav-list>
   </mat-sidenav>

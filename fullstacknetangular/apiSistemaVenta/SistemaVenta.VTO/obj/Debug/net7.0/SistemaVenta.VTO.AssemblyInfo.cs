@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaVenta.VTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c40fbc1f7261e5af549ae575656e0c9409e00d06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8ce4e05c1cb686770365100c826c6025733e9a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaVenta.VTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaVenta.VTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
