@@ -34,4 +34,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+builder.Logging.AddConsole(); // Si usas .NET 6 o superior
+
+
 app.Run();

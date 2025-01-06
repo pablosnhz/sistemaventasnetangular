@@ -33,8 +33,8 @@ export class VentaComponent {
   datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
 
   retornarProductosPorFiltro(busqueda: any):Producto[]{
-    const valorBuscado = typeof busqueda === 'string' ? busqueda.toLowerCase() : busqueda.nombre.toLowerCase();
-    return this.listaProductos.filter(item => item.nombre.toLowerCase().includes(valorBuscado));
+    const valorBuscado = typeof busqueda === 'string' ? busqueda.toLocaleLowerCase() : busqueda.nombre.toLocaleLowerCase();
+    return this.listaProductos.filter(item => item.nombre.toLocaleLowerCase().includes(valorBuscado));
   }
 
   constructor(
@@ -44,8 +44,8 @@ export class VentaComponent {
     private _utilidadService: UtilidadService
   ){
     this.formularioProductoVenta = this.fb.group({
-      producto: ['', [Validators.required]],
-      cantidad: ['', [Validators.required]],
+      producto: ['', Validators.required],
+      cantidad: ['', Validators.required],
     });
     this._productoService.lista().subscribe({
       next: (data) => {
@@ -108,11 +108,11 @@ export class VentaComponent {
         totalTexto: String(this.totalPagar.toFixed(2)),
         datalleVenta: this.listaProductosParaVenta
       }
-      console.log('Datos enviados:', request);
+      console.log('Datos enviados:', request),
       this._ventaService.registrar(request).subscribe({
         next: (data) => {
           if(data.status){
-            console.log('Respuesta del servidor:', data.status);
+            console.log('Datos enviados al servidor:', JSON.stringify(request));
             this.totalPagar = 0.00;
             this.listaProductosParaVenta = [];
             this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);

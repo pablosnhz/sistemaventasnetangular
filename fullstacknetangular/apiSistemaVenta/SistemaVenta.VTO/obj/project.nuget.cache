@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6UWkCOgbjpPTLaaicKSwUd/PzASG75y3r4jkxRKtY+IpYbP9SDxYcbyi6oD7+2wHrvpwli9WHtV4lKtA+0UdBw==",
+  "dgSpecHash": "JzgM1Lpi5lDzaJdDYtM9c5SrFvz/wb2WwttmFDLe0/WP0X+Vng007Hu1dwAntZl71ZR2zYSYsfln90rCjm27Ig==",
   "success": true,
   "projectFilePath": "D:\\DescargasD\\proyectospersonales\\fullstackpuntonet\\APISistemaVenta\\fullstacknetangular\\apiSistemaVenta\\SistemaVenta.VTO\\SistemaVenta.VTO.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Cipper\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Cipper\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Cipper\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -82,7 +82,7 @@ namespace SistemaVenta.Utility
                   opt => opt.MapFrom(origen => Convert.ToString(origen.Total.Value, new CultureInfo("es-AR")))
                 )
                 .ForMember(destino => destino.FechaRegistro,
-                  opt => opt.MapFrom(origen => Convert.ToString(origen.FechaRegistro.Value.ToString("dd/MM/yyyyy")))
+                  opt => opt.MapFrom(origen => Convert.ToString(origen.FechaRegistro.Value.ToString("dd/MM/yyyy")))
              );
 
             CreateMap<VentaDTO, Venta>()
@@ -112,7 +112,7 @@ namespace SistemaVenta.Utility
                   opt => opt.MapFrom(origen => Convert.ToString(origen.PrecioTexto, new CultureInfo("es-AR")))
                 )
                 .ForMember(destino => destino.Total,
-                  opt => opt.MapFrom(origen => Convert.ToString(origen.PrecioTexto, new CultureInfo("es-AR")))
+                  opt => opt.MapFrom(origen => Convert.ToString(origen.TotalTexto, new CultureInfo("es-AR")))
                 );
 
             #endregion DatalleVenta
@@ -120,7 +120,7 @@ namespace SistemaVenta.Utility
             #region Reporte
             CreateMap<DatalleVenta, ReporteDTO>()
                 .ForMember(destino => destino.FechaRegistro,
-                  opt => opt.MapFrom(origen => Convert.ToString(origen.IdVentaNavigation.FechaRegistro.Value.ToString("dd/MM/yyyyy")))
+                  opt => opt.MapFrom(origen => Convert.ToString(origen.IdVentaNavigation.FechaRegistro.Value.ToString("dd/MM/yyyy")))
                   )
                 .ForMember(destino => destino.NumeroDocumento,
                   opt => opt.MapFrom(origen => Convert.ToString(origen.IdVentaNavigation.NumeroDocumento))

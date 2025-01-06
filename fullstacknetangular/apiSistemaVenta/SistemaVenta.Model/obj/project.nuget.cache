@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QuDeAMhXDbvn9SWrCF8g0BUiePtxwJG0zZzgsYKBRT+FkF9VWYEgcW16edrWnvIf74Df6qD0qBORIIsEfgs4+g==",
+  "dgSpecHash": "dbuu3qiULEO95MUHwrN0+o7NJbrSbDR8iGt019/pfE4hqV8IYc+xrDcovAz3/livZtUcuEtH/h8+Umjrv60u6g==",
   "success": true,
   "projectFilePath": "D:\\DescargasD\\proyectospersonales\\fullstackpuntonet\\APISistemaVenta\\fullstacknetangular\\apiSistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
   "expectedPackageFiles": [
@@ -70,10 +70,7 @@
     "C:\\Users\\Cipper\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Cipper\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Cipper\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Cipper\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Cipper\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Cipper\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Cipper\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
+    "C:\\Users\\Cipper\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

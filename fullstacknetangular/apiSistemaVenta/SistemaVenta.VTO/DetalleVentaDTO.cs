@@ -11,7 +11,6 @@ namespace SistemaVenta.VTO
         public int? IdProducto { get; set; }
         public string? DescripcionProducto { get; set; }
 
-
         public int? Cantidad { get; set; }
 
         public string? PrecioTexto { get; set; }
